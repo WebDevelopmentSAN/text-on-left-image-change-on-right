@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu {
+  flex-basis: 30%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #555;
+}
+
+.menu li.active {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.content {
+  flex-basis: 70%;
+  text-align: center;
+}
+
+.content img {
+  max-width: 100%;
+  max-height: 100%;
+}
